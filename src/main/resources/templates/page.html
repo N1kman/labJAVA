@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>CALCULATER</title>
+</head>
+<body>
+	<h1>CALCULATER</h1>
+	<a
+		href="http://localhost:8080/api/version1/getResult?numberFirst=88&numberSecond=4&operation=plus">
+		<img th:src="@{/images/Plus.png}">
+	</a>
+	<a
+		href="http://localhost:8080/api/version1/getResult?numberFirst=88&numberSecond=4&operation=minus">
+		<img th:src="@{/images/Minus.png}">
+	</a>
+	<a
+		href="http://localhost:8080/api/version1/getResult?numberFirst=88&numberSecond=4&operation=divide">
+		<img th:src="@{/images/Divide.png}">
+	</a>
+	<a
+		href="http://localhost:8080/api/version1/getResult?numberFirst=88&numberSecond=4&operation=multiply">
+		<img th:src="@{/images/Multiply.png}">
+	</a>
+</body>
+</html>
