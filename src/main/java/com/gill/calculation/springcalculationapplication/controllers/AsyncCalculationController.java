@@ -44,8 +44,6 @@ public class AsyncCalculationController {
 	public AsyncCalculationController(AsyncDatabaseService asyncDatabaseService,
 			AsyncDatabaseIncrementService asyncDatabaseIncrementService, CalculationService calculationInts,
 			ValidatorExpression validatorExpression) {
-		
-		
 		this.asyncDatabaseService = asyncDatabaseService;
 		this.asyncDatabaseIncrementService = asyncDatabaseIncrementService;
 		this.calculationInts = calculationInts;
